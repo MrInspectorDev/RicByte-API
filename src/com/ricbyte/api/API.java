@@ -17,12 +17,6 @@ import com.mrinspector.plugin.MPK;
 
 public class API {
 	
-	static MPK plugin;
-
-	public API(MPK instance) {
-		API.plugin = instance;
-	}
-	
 	/**
 	* Broadcast a message with this method: API.debugBroadcast("your debug message here");
 	* @param msg
@@ -181,7 +175,7 @@ public class API {
 	 * @param perm
 	 */
 	public void addPermission(Player player, String permisson) {
-		player.addAttachment(plugin, permisson, true);
+		player.addAttachment(this, permisson, true);
 	}
 	
 	/**
@@ -189,7 +183,7 @@ public class API {
 	 * @param perm
 	 */
 	public void removePermission(Player player, String permisson) {
-		player.addAttachment(plugin, permisson, false);
+		player.addAttachment(this, permisson, false);
 	}
 	
 	@SuppressWarnings("deprecation")
