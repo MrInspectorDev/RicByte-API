@@ -188,8 +188,8 @@ public class API {
 	 * Remove a player's permission.
 	 * @param perm
 	 */
-	public static void removePermission(Player player, String permisson) {
-		player.addAttachment((Plugin) plugin, permisson, false);
+	public void removePermission(Player player, String permisson) {
+		player.addAttachment(plugin, permisson, false);
 	}
 	
 	@SuppressWarnings("deprecation")
