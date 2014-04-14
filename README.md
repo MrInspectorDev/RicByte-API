@@ -1,4 +1,5 @@
 RicByte-API
 ===========
+RicByte.com - Bukkit API
 
-RicByte.com's API for Bukkit.
+This API is not designed for public use, but if you want to use it, you can.
