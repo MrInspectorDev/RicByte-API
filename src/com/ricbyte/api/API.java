@@ -3,6 +3,10 @@
  * 
  * All rights reserved.
  */
+ 
+ /*
+ THIS API IS NOT FOR PUBLIC USE.
+ */
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
